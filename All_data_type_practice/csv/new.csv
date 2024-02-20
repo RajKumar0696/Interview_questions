@@ -1,0 +1,10 @@
+user,Password,exp
+
+admin@yourstore.com,admin,Pass
+
+admistore.com,admin,Fail
+
+admin@yourstore.com,adm,Fail
+
+admin@yourst.com,aadmin,Fail
+

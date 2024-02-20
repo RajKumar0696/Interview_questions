@@ -4,3 +4,5 @@ new = {value: key for key, value in new_dict.items()}
 print(new_dict)
 print(new)
 print(ascii_dict['A'])
+
+new_dict = {value: key for key, value in ascii_dict.items()}

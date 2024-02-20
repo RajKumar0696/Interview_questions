@@ -26,11 +26,12 @@ for i in range(number + 1):
         else:
             print("The prime number is:", i)
 
-str = "Welcome to python programming"
-words = str.split(" ")
+str1 = "Welcome to python programming"
+words = str1.split(" ")
 print(words)
 words = words[::-1]
 print(words)
+
 
 string = "Welcome to python programming"
 sub_string = "python"

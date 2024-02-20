@@ -8,6 +8,13 @@ for employee_item in range(len(keys)):
     new_dict.update({keys[employee_item]: values[employee_item]})
 print(new_dict)
 
+keys = ['red', 'green', 'blue']
+values = ['#FF0000','#008000', '#0000FF']
+new_dict1 = {}
+for key in range(len(keys)):
+    new_dict1.update({keys[key]:values[key]})
+print(new_dict1)
+
 # Exercise 2: Merge two Python dictionaries into one
 dict1 = {'Ten': 10, 'Twenty': 20, 'Thirty': 30}
 dict2 = {'Thi': 30, 'Forty': 40, 'Fifty': 50}

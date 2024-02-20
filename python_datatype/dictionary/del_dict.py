@@ -13,7 +13,6 @@ for key_item in keys:
     sample_dict.pop(key_item)
 print(sample_dict)
 
-
 # # Exercise 7: Check if a value exists in a dictionary
 # sample_dict = {'a': 100, 'b': 200, 'c': 300}
 # user_value = int(input("Enter value:"))
@@ -40,11 +39,10 @@ print(sample_dict)
 sample_dict = {
     'Physics': 82,
     'Math': 65,
-    'history': 75
+    'History': 75
 }
 
-print(min(sample_dict.keys()))
-
+print(min(sample_dict.items()))
 
 # Exercise 10: Change value of a key in a nested dictionary
 # Write a Python program to change Brad’s salary to 8500 in the following dictionary.
